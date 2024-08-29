@@ -433,7 +433,6 @@ checking_i();
 var displaying_properties = document.querySelector('.displaying-properties');
 var empty_array = [];
 function get_data(url){
-    // nese osht tu u dok aj muti spani mos i qit
     if(document.querySelector('.error-message').style.opacity == 0){
     fetch(url).then(response=>{
         return response.json();
